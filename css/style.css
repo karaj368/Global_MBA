@@ -1,0 +1,575 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow", sans-serif;
+}
+.container {
+  width: 86% !important ;
+  max-width: 1920px !important;
+}
+
+.primary-color {
+  color: #094c36;
+}
+.light-green {
+  color: #209765;
+}
+.secondary-color {
+  color: #ea6c2d;
+}
+.yellow-color {
+  color: #e3ac14;
+}
+.grey-color {
+  color: #313131;
+}
+
+.bg-green {
+  background-color: #094c36;
+}
+.bg-lgreen {
+  background-color: #0d7251;
+}
+.bg-orange {
+  background-color: #ea6c2d;
+}
+.bg-yellow {
+  background-color: #e3ac14;
+}
+.bg-grey {
+  background-color: #eeeeee;
+}
+.primary-heading {
+  font-size: 81px;
+  font-weight: 400;
+  line-height: 1em;
+}
+.h2tag {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2em;
+  position: relative;
+  text-transform: uppercase;
+}
+.h2tag::after {
+  position: absolute;
+  content: "";
+  top: 65px;
+  width: 10%;
+  display: flex;
+  background: #fff;
+  height: 4px;
+  left: 46%;
+}
+.h3tag {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.3em;
+}
+.head4 {
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.1em;
+}
+
+span {
+  font-size: 27px;
+  font-weight: 400;
+}
+p {
+  font: 14px;
+}
+
+.font-2,
+.font-1 {
+  font-family: "Barlow", sans-serif;
+}
+
+/* Header */
+.navbar-brand img {
+  width: 100%;
+  max-width: 80%;
+}
+
+.logo , .main-heading{
+  width: 50%;
+}
+
+/* End Header */
+
+/* main banner */
+.hero-banner {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: -5px;
+}
+.slide1 {
+  background: url(../images/slide1.png);
+}
+/* .slide2{
+  background:url(../images/slide1.jpg) ;
+} */
+.slide3 {
+  background: url(../images/slide3.png);
+}
+.slide4 {
+  background: url(../images/slide4.png);
+}
+.main-slider .slides {
+  height: 600px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* about */
+.card-box {
+  position: relative;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+.card1:before {
+  background: url(../images/building-icon.png) no-repeat top right;
+}
+.card2:before {
+  background: url(../images/university-icon.png) no-repeat top right;
+}
+.card3:before {
+  background: url(../images/graduate-icon.png) no-repeat top right;
+}
+.card4:before {
+  background: url(../images/global-icon.png) no-repeat top right;
+}
+.cardbox-text::before {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  content: "";
+  background-size: contain;
+}
+
+.cardbox-text h4 {
+  color: #ffffff;
+  font-size: 31px;
+  margin: 0px;
+  text-transform: uppercase;
+  line-height: 1.1;
+  font-weight: 400;
+}
+.fancymodelbtn {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  bottom: 0px;
+  z-index: 2;
+}
+.cardBoxArrow {
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  right: 20px;
+  display: block;
+  margin-top: px;
+}
+.abtBoxArrowbtn,
+.cardBoxArrow span {
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1;
+  padding: 0px;
+  display: inline-block;
+  margin: 0px;
+  transform: translateX(0);
+  transition: 0.5s;
+}
+.card-box:hover .cardBoxArrowbtn,
+.card-box:hover .cardBoxArrow span,
+.card-box:focus .cardBoxArrowbtn,
+.card-box:focus .cardBoxArrow span,
+.card-box:active .cardBoxArrowbtn,
+.card-box:active .cardBoxArrow span {
+  color: #f1dfdf;
+  transform: translateX(5px);
+}
+/* programs concepts */
+.prog-con-bg {
+  background: url(../images/study.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ProgContainer {
+  overflow: hidden;
+  padding-left: 7%;
+}
+
+.concept-heading {
+  font-weight: 600;
+  font-size: 32px;
+  position: relative;
+}
+.concept-heading:before {
+  content: "";
+  position: absolute;
+  top: 50px;
+  width: 130px;
+  height: 5px;
+  left: 0px;
+  margin: 0 auto;
+  background-color: #de8425;
+}
+.right-content {
+  margin-left: 7%;
+}
+.program-content {
+  background-color: #274498;
+  padding: 30px 15px;
+}
+.program-content p {
+  color: #fff;
+  font-size: 14px;
+}
+.program-content ul {
+  list-style: none;
+  padding: 0;
+}
+.program-content ul li {
+  color: #fff;
+  padding: 8px 0px;
+  border-bottom: 1px solid #fff;
+}
+.program-content ul li i {
+  margin-right: 10px;
+  font-size: 14px;
+}
+/* Features */
+.features-heading h3::after,
+.records-heading h3::after {
+  content: "";
+  position: absolute;
+  top: 50px;
+  width: 50%;
+  height: 5px;
+  left: 25%;
+  margin: 0 auto;
+  background-color: #ea6c2d;
+}
+.courses-wrap {
+  border-right: 3px solid #e3e2e2;
+  border-bottom: 3px solid #e3e2e2;
+}
+.courses-wrap {
+  width: 20%;
+  margin: 0%;
+  padding: 20px;
+  position: relative;
+  transform: translateY(0);
+  transition: 0.5s;
+  border-radius: 0px;
+  background-color: #f5f5f5;
+}
+.courses-wrap:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 17px rgba(32, 46, 60, 0.7);
+}
+.courses-wrap strong {
+  font-weight: 600;
+  margin-top: 15px;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #060608;
+}
+.courses-wrap:hover strong {
+  color: #e56a20;
+}
+.courses-wrap p {
+  font-weight: 300;
+  margin-top: 0px;
+  font-size: 24px;
+  line-height: 1.02;
+  color: #060608;
+}
+/* Counter records */
+.records {
+  padding: 50px 0px;
+  background: url(../images/track-bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.counter .number {
+  font-weight: 600;
+  font-size: 48px;
+  color: #efb509;
+  margin: 0;
+  line-height: 1;
+}
+.records-heading p,
+.count h4 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.15;
+  color: #ffffff;
+}
+.counter .cols {
+  margin: 0px;
+  padding: 25px 8px;
+  text-align: center;
+  border-right: 2px solid #ffffff;
+}
+
+/* Why Choose slider  */
+
+.testicontent {
+  position: relative;
+  padding: 15px;
+  background-color: #cd7213;
+  border-radius: 10px;
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.testicontent p {
+  padding: 0;
+  margin: 0 0 4px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #ffffff;
+  font-weight: 400;
+}
+.testicontent::before {
+  content: "";
+  position: absolute;
+  left: 80px;
+  bottom: -27px;
+  width: 50px;
+  height: 50px;
+  background: url(../images/icons/testimonial-leaf.png) no-repeat bottom center;
+  background-size: contain;
+
+}
+.profile-pic img {
+  border-radius: 90%;
+  width: 150px;
+  height: 150px;
+}
+.profie-info h4 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.55;
+  color: #cd7213;
+  padding-left: 15px;
+}
+.profie-info h4 > small {
+  color: #666666;
+  font-size: 15px;
+  font-weight: 400;
+  display: block;
+  text-transform: initial;
+}
+.review-slider .slick-slide {
+  padding:10px;
+}
+.review-slider .slick-prev:before, .review-slider .slick-next:before {
+  font-size: 26px !important;
+  color: #cd7213 !important;
+}
+/* Ranking */
+.ranking-bg img {
+  width: 100%;
+}
+
+/* Awards */
+.awards{
+  padding: 50px 0px;
+  background: url(../images/award-bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.awards-slides.award-card {
+  width: 65% !important;
+  margin: auto !important;
+  text-align: center !important;
+}
+.awards-slides{
+  padding: 10px 0px;
+  border-bottom: 2px solid #fff;
+}
+
+.slide-content p{
+  font-size: 22px;
+  line-height: 1.2em;
+  font-weight: 400;
+  color: #fff;
+}
+.slide-images img{
+  width: 100%;
+  max-width: 50%;
+}
+.awards-slider .slick-slide.slick-current.slick-active div {
+  display: flex;
+  justify-content: center;
+}
+
+/* placements */
+.place-slider img {
+  border: 1px solid rgb(223, 223, 223);
+  padding: 15px 10px;
+  width: 95%;
+}
+.place-slides{
+  margin: auto !important;
+}
+
+
+/* Responsive Start Here */
+@media (max-width:1024px){
+  .records-heading p, .count h4 {
+    font-size: 16px;
+}
+}
+@media (max-width:992px){
+  .navbar-brand img {
+    max-width: 90%;
+}
+  .main-heading .head4 {
+    font-size: 24px;
+  }
+  .main-heading span {
+    font-size: 24px;
+  }
+  .main-slider .slides {
+    height: 400px;
+}
+.primary-heading {
+  font-size: 52px;
+}
+.h3tag {
+  font-size: 25px;
+}
+.head4 {
+  font-size: 20px;
+}
+.custom-row {
+    width: 86%;
+    margin: auto !important;
+    padding: 0rem 0.3em;
+}
+  .right-content {
+    margin-left: 0%;
+}
+.awards-slides.award-card {
+  width: 99% !important;
+}
+}
+@media (max-width:768px){
+ 
+  .main-heading .head4 {
+    font-size: 20px;
+  }
+  .main-heading span {
+    font-size: 20px;
+  }
+  .cardbox-text h4 {
+    font-size: 24px;
+}
+  .courses-wrap {
+    width: 50%;
+  }
+  .h3tag {
+    font-size: 25px;
+}
+.records-heading p, .count h4 {
+  font-size: 14px;
+}
+.counter .number {
+  font-size: 36px;
+}
+.counter .cols {
+  padding: 10px 8px;
+}
+.features-heading h3::after, .records-heading h3::after {
+  top: 40px;
+}
+.slide-content p {
+  font-size: 16px;
+}
+}
+@media (max-width:575px){
+  .logo , .main-heading{
+    width: 100%;
+  }
+  .navbar-brand img {
+    max-width: 100%;
+}
+.main-heading .head4 {
+  font-size: 16px;
+}
+.main-heading span {
+  font-size: 22px;
+}
+.primary-heading {
+  font-size: 42px;
+}
+.h3tag {
+  font-size: 22px;
+}
+.head4 {
+  font-size: 18px;
+}
+.main-slider .slides {
+  height: 320px !important;
+}
+.card-box {
+  padding: 35px !important; 
+}
+.cardbox-text h4 {
+  font-size: 20px !important;
+}
+.courses-wrap {
+  width: 50%;
+}
+.concept-heading {
+  font-size: 22px;
+}
+.concept-heading:before {
+  top: 40px;
+}
+.ranking .features-heading h3::after {
+  top: 65px;
+}
+.why-choose .features-heading h3::after{
+  top: 65px;
+  width: 100%;
+}
+.counter .cols {
+  border-right: 0px;
+}
+.profile-slides.slides {
+  display: flex !important;
+  flex-direction: column-reverse;
+}
+.review-profile {
+  flex-direction: column;
+}
+.testicontent::before{
+  display: none;
+}
+
+}
